@@ -8,14 +8,16 @@
 # Site settings
 title: SpookBox Podcast
 email: spookboxpodcast@outlook.com
-description: This is the website of horror movie podcast SpookBox. We're a Podcast run by three friends from the UK. We chat about horror movies but also all things 'Spooky' to try and shed some light on otherwise dark subjects. We try to have a good time while talking but also like to bring in some academic sources while we're at it when we remember!> # this means to ignore newlines until "baseurl:"
-baseurl: "spookboxpodcast.co.uk" # the subpath of your site, e.g. /blog
-url: "spookboxpodcast.co.uk" # the base hostname & protocol for your site
+description: "This is the website of horror movie podcast SpookBox. We're a Podcast run by three friends from the UK. We chat about horror movies but also all things 'Spooky' to try and shed some light on otherwise dark subjects. We try to have a good time while talking but also like to bring in some academic sources while we're at it when we remember!"
+baseurl: "/SpookBox-Podcast" # the subpath of your site, e.g. /blog
+url: "https://github.com/cpmmckeown" # the base hostname & protocol for your site
 twitter_username: agentialgamer
 github_username:  cpmmckeown
 
 permalink: /:year/:title.html
 
+#Timezone
+timezone: United Kingdom/London
 
 # Build settings
 markdown: kramdown
