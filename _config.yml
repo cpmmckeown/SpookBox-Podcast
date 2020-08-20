@@ -9,8 +9,8 @@
 title: SpookBox Podcast
 email: spookboxpodcast@outlook.com
 description: "This is the website of horror movie podcast SpookBox."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "https://spookboxpodcast.co.uk/" 
+url: ""
 twitter_username: agentialgamer
 github_username:  cpmmckeown
 
