@@ -9,21 +9,21 @@ $bp-larger-than-desktop   : "min-width: 1000px" !default;
 $bp-larger-than-desktophd : "min-width: 1200px" !default;
 
 // Colors
-$light-grey: rgba(241,241,241,1) !default;
-$lighter-grey: lighten($light-grey, 10%) !default;
-$dark-grey: rgba(51,51,51,1) !default;
-$primary-color: rgba(255,83,13,1) !default;
-$secondary-color: rgba(63,87,101,1) !default;
-$border-color: #bbb !default;
-$link-color: rgba(255,83,13,1) !default;
-$font-color: rgba(51,51,51,1) !default;
-$header-color: rgba(255,255,255,0.85);
-$header-color-link: rgba(255,255,255,1);
-$drop-shadow: rgba(0,0,0,0.4) !default;
+$light-grey: rgb(0,0,0,) !default;
+$lighter-grey: rgb(0,0,0) !default;
+$dark-grey: rgba(0,0,0,1) !default;
+$primary-color: rgba(0,0,0,1) !default;
+$secondary-color: rgb(0,0,0) !default;
+$border-color: rgb(0,0,0) !default;
+$link-color: rgba(0,0,0,1) !default;
+$font-color: rgba(0,0,0,1) !default;
+$header-color: rgba(0,0,0,1);
+$header-color-link: rgba(0,0,0,1);
+$drop-shadow: rgba(0,0,0,0.1) !default;
 $footer-color: rgba(255,255,255,0.75);
 
 // Typography
-$font-family: "Lato", Helvetica, Arial, sans-serif !default;
+$font-family: 'Spartan', sans-serif !default;
 
 //Grid Variables
 $container-width: 1000px !default;
@@ -37,5 +37,5 @@ $column-margin: 4% !default; // space between columns
 $global-radius: 4px !default;
 
 // Gradients
-$long-gradient: linear-gradient(180deg, #2B3A42, #3F5765, #BDD4DE, #EFEFEF,  #BDD4DE, #3F5765, #2B3A42);
+$long-gradient: linear-gradient(180deg, #f6efde, #f6efde, #f6efde);
 $dark-gradient: linear-gradient(to bottom,#444444 0%,#333333 39%,#333333 39%);
