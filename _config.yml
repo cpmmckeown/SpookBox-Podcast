@@ -9,15 +9,15 @@
 title: SpookBox Podcast
 email: spookboxpodcast@outlook.com
 description: "This is the website of horror movie podcast SpookBox."
-baseurl: "https://spookboxpodcast.co.uk" 
-url: ""
+baseurl: ""
+url: https://github.com/cpmmckeown/SpookBox-Podcast/blob/master
 twitter_username: agentialgamer
 github_username:  cpmmckeown
 
 permalink: /:year/:title.html
 
 #Timezone
-timezone: United Kingdom/London
+timezone: GMT
 
 # Build settings
 markdown: kramdown
