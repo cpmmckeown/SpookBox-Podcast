@@ -13,12 +13,10 @@ nav li {
   flex-grow: 1;
   min-width: 50%;
   margin: 0px 0px;
-  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 1);
   box-sizing: border-box;
-  background: #333333;
-  background: -moz-$dark-gradient;
-  background: -webkit-$dark-gradient;
-  background: $dark-gradient;
+  background: rgb(0,0,0);
+  
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444', endColorstr='#333333',GradientType=0 ); }
 
 nav a {
@@ -27,7 +25,7 @@ nav a {
   text-transform: uppercase;
   display: block;
   padding: .5em 0px; 
-  border-bottom: 6px solid transparent;
+  
 }
 
 nav a:hover {
