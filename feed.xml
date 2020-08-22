@@ -18,10 +18,10 @@ layout: null
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
     <itunes:image href="https://archive.org/download/spook-box-logo/SpookBox%20Logo.png" />
-    <itunes:category text="Film Reviews">
-      <itunes:category text="Visual Arts" />
+    <itunes:category text="TV &amp; Film">
+      <itunes:category text="Film Reviews" />
     </itunes:category>
-    <itunes:explicit> "Yes" </itunes:explicit>
+    <itunes:explicit> "true" </itunes:explicit>
     
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
