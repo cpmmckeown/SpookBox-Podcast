@@ -4,7 +4,8 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"  xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Spook Box Horror Movie Podcast</title>
+    <title>SpookBox Horror Movie Podcast</title>
+    <author> SpookBox </author>
     <description>{{ site.description | xml_escape }}</description>
     <itunes:image>https://archive.org/download/spook-box-logo/SpookBox%20Logo.png</itunes:image>
     <language>"en-us""</language>
