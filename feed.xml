@@ -4,15 +4,25 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"  xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>SpookBox Horror Movie Podcast</title>
+    <!-- CANT FIGURE THIS OUT YET <atom:link href="{{ site.url }}/podcast.rss" rel="self" type="application/rss+xml" />-->
+    <title>{{site.title}}</title>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <language>{{site.lang}} </language>
+    <copyright>&#xA9; {{ site.time | date: "%Y" }} {{ site.title }}</copyright>
+    <itunes:subtitle>{{ site.subtitle | xml_escape }}</itunes:subtitle>
+    <itunes:author>{{ site.author }}</itunes:author>
     <description>{{ site.description | xml_escape }}</description>
-    <itunes:image>https://archive.org/download/spook-box-logo/SpookBox%20Logo.png</itunes:image>
-    <language>"en-us" </language>
+    <webMaster>{{ site.email }} ({{ site.author }})</webMaster>
+    itunes:owner>
+			<itunes:name>{{ site.author }}</itunes:name>
+			<itunes:email>{{ site.email }}</itunes:email>
+		</itunes:owner>
+    <itunes:image href="https://archive.org/download/spook-box-logo/SpookBox%20Logo.png" />
     <itunes:category text="Film Reviews">
       <itunes:category text="Visual Arts" />
     </itunes:category>
     <itunes:explicit text="true"/>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
