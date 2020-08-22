@@ -13,7 +13,7 @@ layout: null
     <itunes:author>{{ site.author }}</itunes:author>
     <description>{{ site.description | xml_escape }}</description>
     <webMaster>{{ site.email }} ({{ site.author }})</webMaster>
-    itunes:owner>
+    <itunes:owner>
 			<itunes:name>{{ site.author }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
