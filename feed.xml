@@ -21,7 +21,7 @@ layout: null
     <itunes:category text="Film Reviews">
       <itunes:category text="Visual Arts" />
     </itunes:category>
-    <itunes:explicit text="yes"/>
+    <itunes:explicit> Yes </itunes:explicit>
     
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
