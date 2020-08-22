@@ -8,7 +8,7 @@ layout: null
     <author> SpookBox </author>
     <description>{{ site.description | xml_escape }}</description>
     <itunes:image>https://archive.org/download/spook-box-logo/SpookBox%20Logo.png</itunes:image>
-    <language>"en-us""</language>
+    <language>"en-us" </language>
     <itunes:category text="Film Reviews">
       <itunes:category text="Visual Arts" />
     </itunes:category>
@@ -20,7 +20,14 @@ layout: null
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
+        <author> SpookBox </author>
         <description>{{ post.content | xml_escape }}</description>
+        <itunes:image>https://archive.org/download/spook-box-logo/SpookBox%20Logo.png</itunes:image>
+        <language>"en-us" </language>
+        <itunes:category text="Film Reviews">
+          <itunes:category text="Visual Arts" />
+        </itunes:category>
+        <itunes:explicit text="true"/>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
